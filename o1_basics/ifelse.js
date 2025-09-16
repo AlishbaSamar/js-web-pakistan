@@ -18,5 +18,9 @@
 const names = "Alishba"
 const repo = 40
 console.log(`My name is ${names} repo is ${repo}`);
-
+const userlogin = true
+const debitcard = true
+if(userlogin && debitcard){
+    console.log("Allow")
+}
 
